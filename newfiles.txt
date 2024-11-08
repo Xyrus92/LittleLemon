@@ -2,3 +2,12 @@ git status
 git add .
 git commit -m "text"
 git push origin main
+--
+git pull
+--
+Travailler avec une autre branche :
+https://www.coursera.org/learn/back-end-developer-capstone/supplement/Mth5w/exercise-committing-the-project
+git checkout -b new-branch
+git add .
+git commit -m "message"
+git push -u origin new-branch
